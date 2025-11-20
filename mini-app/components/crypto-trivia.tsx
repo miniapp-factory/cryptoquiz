@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card";
 
-export default function CryptoTrivia(): JSX.Element {
+export default function CryptoTrivia() {
   const question = "What is the native cryptocurrency of Ethereum?";
   const answer = "Ether";
   const [showAnswer, setShowAnswer] = useState(false);
